@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BFE4595-9CDD-4719-88E1-E9003790DDBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ORUSCURSO</RootNamespace>
+    <AssemblyName>ORUSCURSO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\CONEXIONMAESTRA.cs" />
+    <Compile Include="Datos\Dcargos.cs" />
+    <Compile Include="Datos\Dpersonal.cs" />
+    <Compile Include="Logica\Bases.cs" />
+    <Compile Include="Logica\Lcargos.cs" />
+    <Compile Include="Logica\Lpersonal.cs" />
+    <Compile Include="Presentacion\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Personal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Personal.Designer.cs">
+      <DependentUpon>Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Personal.resx">
+      <DependentUpon>Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\despertador %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coworking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\respaldo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonoOrus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8e0aa9b4953842a3bc06144644304thumbnail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base-de-datos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientela1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grupos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satelite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volver-flecha1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

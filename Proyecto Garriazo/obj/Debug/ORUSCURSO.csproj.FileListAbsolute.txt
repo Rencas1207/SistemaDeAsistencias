@@ -1,0 +1,20 @@
+E:\Proyectos en Csharp\ORUSCURSO\bin\Debug\ORUSCURSO.exe
+E:\Proyectos en Csharp\ORUSCURSO\bin\Debug\ORUSCURSO.pdb
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.csprojAssemblyReference.cache
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Properties.Resources.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.GenerateResource.cache
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.CoreCompileInputs.cache
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.exe
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.pdb
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.MenuPrincipal.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Personal.resources
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\bin\Debug\ORUSCURSO.exe
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\bin\Debug\ORUSCURSO.pdb
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.csprojAssemblyReference.cache
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.MenuPrincipal.resources
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Personal.resources
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.Properties.Resources.resources
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.GenerateResource.cache
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.CoreCompileInputs.cache
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.exe
+C:\Users\Shiarir\Downloads\Paginado\ORUSCURSO\obj\Debug\ORUSCURSO.pdb
