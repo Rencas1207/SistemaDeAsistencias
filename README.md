@@ -1,6 +1,6 @@
 # Sistema de asistencias para la Corporación Garriazo 
 
-![Design Hero]
+![Design Hero](https://github.com/Rencas1207/repo-prueba/blob/gh-pages/img/design-modificaded.png)
 
 ## Objetivos 🚀
 1. Tener un mayor control en horarios de entrada, tardanzas y faltas del personal tanto de nivel operativo como administrativo.
