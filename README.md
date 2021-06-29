@@ -11,7 +11,7 @@
 ## Alcance del proyecto 📋
 
 La asistencia se debe documentar y registrar con los datos que se recolectan, tenerlos de manera segura y confidencial, con ello se podrá trabajar de una manera correcta y
-eficaz, debido a la incorreta toma de asistencia, viene lo que es la pérdia de tiempo y por consecuente se reduce el timepo de producción y trabajo.
+eficaz, debido a la incorreta toma de asistencia, viene lo que es la pérdida de tiempo y por consecuente se reduce el tiempo de producción y trabajo.
 
 ## Funciones 📌
 
